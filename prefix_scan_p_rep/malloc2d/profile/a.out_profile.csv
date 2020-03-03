@@ -1,0 +1,21 @@
+,function_name,migration_count,total_instruction_count,total_regs_migrated,percent_total_instructions,percent_total_migrations
+0,main,5379,139366,82492,61.742593733,74.8018356279
+1,main .otd1,902,46035,16236,20.3946464884,12.5434570992
+2,main .otd1.1,910,39897,16380,17.6753602899,12.654707273
+3,malloc,0,115,0,0.0509478515513,0.0
+4,__stdio_exit_needed,0,88,0,0.0389861820566,0.0
+5,__ofl_lock,0,87,0,0.0385431572605,0.0
+6,libc_exit_fini,0,78,0,0.0345559340956,0.0
+7,exit,0,44,0,0.0194930910283,0.0
+8,_Exit,0,7,0,0.00310117357268,0.0
+9,_fini,0,2,0,0.000886049592196,0.0
+10,starttiming,0,1,0,0.000443024796098,0.0
+11,__lock,0,1,0,0.000443024796098,0.0
+12,__initialize_2d_ptrs__,0,0,0,0.0,0.0
+13,mw_mallocstripe,0,0,0,0.0,0.0
+14,mw_free,0,0,0,0.0,0.0
+15,mw_get_localto,0,0,0,0.0,0.0
+16,stoptiming,0,0,0,0.0,0.0
+17,__memset,0,0,0,0.0,0.0
+18,mw_malloc2d,0,0,0,0.0,0.0
+19,__remote_memcpy,0,0,0,0.0,0.0

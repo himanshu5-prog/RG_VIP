@@ -1,0 +1,812 @@
+**********************************************
+START INSTRUCTION COUNT FOR AID=1
+**********************************************
+@main
+Migration Count: 0
+Remote Count: 0
+ST:Resize at TPC=0x800022a3 averaged removing 9 registers
+ST:Resize at TPC=0x80002468 averaged removing 10 registers
+FENCE: 20
+STS: 20
+RTS: 20
+DTA: 1025
+SWAPD: 2
+ADD: 2046
+ADDM: 2066
+XOR: 10
+DTD2: 1
+ADDE: 1033
+CMPE: 2046
+SLLV: 40
+LSR0: 2111
+LSR1: 1093
+LSR3: 2046
+AAIM: 80
+AAIMB: 2066
+LIT: 11
+JMP: 1022
+ETE: 5123
+SLLC: 2086
+SRAC: 40
+TDF: 2046
+RESIZE: 2046
+ADDL: 1
+SILL: 8192
+LIT16: 16480
+JL: 4090
+XORL0: 1023
+BCTDZ: 1113
+BCTGT: 1
+BCTAZ: 10
+BCTITA: 2
+BCFZ: 1
+BCTZ: 2046
+SPC: 2046
+LD: 3091
+STD: 21
+WRD: 2110
+JALE: 2047
+JMPE: 1
+DPETA: 14432
+CAS: 1
+LDE: 7198
+RELEASE: 2046
+DTE: 1058
+ATE: 6159
+ETD: 3091
+ETA: 7214
+
+@mw_mallocrepl
+Migration Count: 0
+Remote Count: 0
+
+@mw_mallocstripe
+Migration Count: 0
+Remote Count: 0
+
+@mw_get_localto
+Migration Count: 0
+Remote Count: 0
+
+@main.outline_.otd1
+Migration Count: 0
+Remote Count: 0
+ADDM: 1023
+ADDE: 2046
+AAIMB: 1023
+SLLC: 2046
+LD: 1023
+WRD: 1023
+JMPE: 1023
+DPETA: 2046
+LDE: 1023
+ATE: 3069
+ETD: 3069
+ETA: 5115
+
+@starttiming
+Migration Count: 0
+Remote Count: 0
+JMPE: 1
+
+@stoptiming
+Migration Count: 0
+Remote Count: 0
+
+@__remote_memcpy
+Migration Count: 0
+Remote Count: 0
+BCFDZ: 1
+JMPE: 1
+ETD: 1
+
+_start
+Migration Count: 0
+Remote Count: 0
+LSR0: 1
+SILL: 2
+JALE: 1
+
+@_init
+Migration Count: 0
+Remote Count: 0
+
+@__init_ssp
+Migration Count: 0
+Remote Count: 0
+
+@dummy1
+Migration Count: 0
+Remote Count: 0
+
+@__libc_start_main
+Migration Count: 0
+Remote Count: 0
+
+@exit
+Migration Count: 0
+Remote Count: 0
+DTA: 3
+SWAPD: 2
+DTD2: 1
+LSR0: 4
+LSR3: 1
+JMP: 1
+ETE: 2
+SILL: 14
+LIT16: 2
+BCTGT: 1
+BCFZ: 1
+LD: 1
+STD: 1
+JALE: 4
+CAS: 1
+STE: 1
+LDE: 1
+DTE: 2
+ETD: 1
+
+@malloc
+Migration Count: 0
+Remote Count: 0
+DTA: 25
+AND: 5
+ADDE: 10
+SUBE: 5
+ORE: 5
+XORE: 5
+CMPE: 10
+LSR0: 10
+LSR8: 5
+AAIM: 30
+LIT: 25
+JMP: 10
+ETE: 5
+MUMA0: 10
+MUMO1: 5
+TDF: 5
+TDT: 5
+ADDL: 5
+SILL: 75
+LIT16: 25
+BCFDZ: 10
+BCFAZ: 10
+BCTAZ: 5
+LD: 10
+WRD: 45
+JMPE: 5
+DPETA: 15
+CAS: 5
+LDE: 15
+DTE: 25
+ATE: 20
+ETD: 55
+ETA: 75
+
+@libc_start_init
+Migration Count: 0
+Remote Count: 0
+
+@realloc
+Migration Count: 0
+Remote Count: 0
+
+@__fputs
+Migration Count: 0
+Remote Count: 0
+
+@fputs
+Migration Count: 0
+Remote Count: 0
+
+@fputs_unlocked
+Migration Count: 0
+Remote Count: 0
+
+@__fwrite
+Migration Count: 0
+Remote Count: 0
+
+@fwrite_unlocked
+Migration Count: 0
+Remote Count: 0
+
+@strerror_l
+Migration Count: 0
+Remote Count: 0
+
+@__towrite
+Migration Count: 0
+Remote Count: 0
+DTA: 2
+ADDE: 2
+ORE: 1
+LSR0: 3
+LSR3: 1
+AAIM: 5
+TDF: 1
+ADDL: 3
+LD: 1
+ST8: 1
+WRD: 5
+JMPE: 1
+LDE: 1
+LD8A: 1
+LD32A: 1
+DTE: 4
+ATE: 1
+ETD: 6
+ETA: 9
+
+@__lockfile
+Migration Count: 0
+Remote Count: 0
+LSR0: 2
+LSR1: 2
+ADDL: 2
+BCTAZ: 2
+BCFZ: 2
+LD: 2
+JMPE: 2
+CAS: 2
+DTE: 8
+ETD: 2
+ETA: 4
+
+@memchr
+Migration Count: 0
+Remote Count: 0
+
+@fwrite
+Migration Count: 0
+Remote Count: 0
+
+@__syscall_ret
+Migration Count: 0
+Remote Count: 0
+DTA: 6
+SWAPD: 3
+DTD2: 2
+CMPE: 1
+LSR0: 2
+LSR3: 1
+AAIM: 6
+LIT: 1
+JMP: 2
+ETE: 4
+LM: 1
+SM: 1
+TDT: 1
+SILL: 14
+LIT16: 5
+BCFDZ: 1
+BCTDZ: 1
+BCTGT: 2
+BCFZ: 2
+LD: 3
+STD: 2
+WRD: 2
+JALE: 1
+JMPE: 1
+CAS: 2
+STE: 1
+LDE: 3
+DTE: 3
+ATE: 2
+ETD: 3
+ETA: 7
+
+@frexp
+Migration Count: 0
+Remote Count: 0
+
+@calloc
+Migration Count: 0
+Remote Count: 0
+
+@wcrtomb
+Migration Count: 0
+Remote Count: 0
+
+@__libc_exit_fini
+Migration Count: 0
+Remote Count: 0
+
+@__stdio_seek
+Migration Count: 0
+Remote Count: 0
+
+@__stdio_close
+Migration Count: 0
+Remote Count: 0
+
+@__libc_start_init
+Migration Count: 0
+Remote Count: 0
+
+@__stdio_exit
+Migration Count: 0
+Remote Count: 0
+DTA: 7
+SWAPD: 4
+DTD2: 2
+CMPE: 2
+LSR0: 2
+LSR3: 1
+AAIM: 8
+JMP: 3
+ETE: 3
+TDT: 2
+SILL: 19
+LIT16: 5
+JL: 2
+BCTGT: 2
+BCFAZ: 3
+BCFZ: 2
+LD: 3
+STD: 2
+WRD: 2
+JALE: 2
+JMPE: 1
+CAS: 2
+STE: 1
+LDE: 10
+DTE: 2
+ATE: 1
+ETD: 4
+ETA: 14
+
+@__lock
+Migration Count: 0
+Remote Count: 0
+JMPE: 1
+
+@__towrite_needs_stdio_exit
+Migration Count: 0
+Remote Count: 0
+
+@__ofl_lock
+Migration Count: 0
+Remote Count: 0
+DTA: 5
+SWAPD: 4
+DTD2: 2
+LSR0: 1
+LSR3: 1
+AAIM: 2
+JMP: 1
+ETE: 2
+SILL: 17
+LIT16: 5
+BCTGT: 2
+BCFZ: 2
+LD: 2
+STD: 2
+WRD: 1
+JALE: 1
+JMPE: 1
+CAS: 2
+STE: 1
+LDE: 3
+DTE: 4
+ATE: 1
+ETD: 2
+ETA: 4
+
+@__funcs_on_exit
+Migration Count: 0
+Remote Count: 0
+JMPE: 2
+
+@__unlock
+Migration Count: 0
+Remote Count: 0
+
+@_fini
+Migration Count: 0
+Remote Count: 0
+
+@__ofl_unlock
+Migration Count: 0
+Remote Count: 0
+
+@__stdout_write
+Migration Count: 0
+Remote Count: 0
+DTA: 9
+SWAPD: 3
+DTD2: 2
+LSR0: 3
+LSR3: 2
+AAIM: 5
+LIT: 2
+JMP: 1
+ETE: 8
+LM: 1
+SM: 1
+SLLC: 1
+SRAC: 1
+TDF: 1
+ADDL: 3
+SILL: 19
+LIT16: 6
+BCFDZ: 1
+BCTGT: 2
+BCTAZ: 1
+BCFZ: 2
+LD: 3
+STD: 2
+ST8: 1
+WRD: 2
+JALE: 2
+JMPE: 1
+CAS: 2
+STE: 1
+LDE: 2
+LD32A: 2
+RELEASE: 1
+DTE: 6
+ATE: 3
+ETD: 5
+ETA: 8
+
+@__stdio_exit_needed
+Migration Count: 0
+Remote Count: 0
+
+@__aio_close
+Migration Count: 0
+Remote Count: 0
+
+@dummy
+Migration Count: 0
+Remote Count: 0
+
+@libc_exit_fini
+Migration Count: 0
+Remote Count: 0
+DTA: 5
+SWAPD: 4
+DTD2: 2
+CMPE: 1
+LSR0: 1
+LSR3: 1
+AAIM: 4
+JMP: 2
+ETE: 2
+TDT: 1
+SILL: 17
+LIT16: 5
+BCTGT: 2
+BCFZ: 2
+LD: 2
+STD: 2
+WRD: 2
+JALE: 1
+JMPE: 1
+CAS: 2
+STE: 1
+LDE: 4
+DTE: 3
+ATE: 1
+ETD: 3
+ETA: 6
+
+@__lctrans_cur
+Migration Count: 0
+Remote Count: 0
+
+@__fwritex
+Migration Count: 0
+Remote Count: 0
+DTA: 7
+SWAPD: 5
+ADDM: 1
+ATA2: 1
+DTD2: 3
+SUBE: 2
+ORE: 1
+CMPE: 6
+LSR0: 5
+LSR3: 1
+AAIM: 15
+AAIMB: 1
+LIT: 1
+JMP: 2
+ETE: 10
+SRLC: 2
+MUMA1: 2
+TDF: 3
+TDT: 2
+ADDL: 3
+SILL: 13
+LIT16: 3
+BCTGT: 2
+BCTAZ: 1
+BCTITA: 3
+BCFZ: 2
+LD: 2
+STD: 2
+WRD: 6
+JALE: 3
+JMPE: 1
+DPETA: 3
+CAS: 2
+STE: 1
+LDE: 12
+LD8A: 2
+DTE: 7
+ATE: 5
+ETD: 18
+ETA: 23
+
+@_Exit
+Migration Count: 0
+Remote Count: 0
+LIT: 1
+SLLC: 1
+SRAC: 1
+RELEASE: 1
+DTE: 2
+ETD: 1
+
+@__unlockfile
+Migration Count: 0
+Remote Count: 0
+DTA: 1
+LSR1: 1
+ADDL: 1
+WRD: 1
+JMPE: 1
+ETD: 1
+
+@__lctrans
+Migration Count: 0
+Remote Count: 0
+
+@frexpl
+Migration Count: 0
+Remote Count: 0
+
+@__errno_location
+Migration Count: 0
+Remote Count: 0
+
+@__lctrans_impl
+Migration Count: 0
+Remote Count: 0
+
+@strlen
+Migration Count: 0
+Remote Count: 0
+
+@free
+Migration Count: 0
+Remote Count: 0
+
+@__stdio_write
+Migration Count: 0
+Remote Count: 0
+DTA: 8
+SWAPD: 3
+DTD2: 2
+ADDE: 1
+SUBE: 1
+XORE: 1
+LSR0: 3
+LSR3: 1
+AAIM: 14
+LIT: 18
+JMP: 2
+ETE: 2
+LM: 1
+SM: 1
+SLLC: 1
+SRAC: 1
+ADDL: 5
+SILL: 16
+LIT16: 5
+JL: 1
+BCFDZ: 2
+BCTDZ: 1
+BCTGT: 2
+BCTITA: 5
+BCFZ: 2
+LD: 7
+STD: 2
+WRD: 16
+JALE: 2
+JMPE: 1
+DPETA: 17
+CAS: 2
+STE: 1
+LDE: 9
+LD32A: 1
+RELEASE: 1
+DTE: 7
+ATE: 4
+ETD: 18
+ETA: 15
+
+@strerror
+Migration Count: 0
+Remote Count: 0
+
+@__memset
+Migration Count: 0
+Remote Count: 0
+ATD: 1
+MULTE: 1
+JMP: 2
+MUMA1: 2
+TDF: 7
+ADDL: 3
+SILL: 3
+LIT16: 1
+BCFDZ: 1
+BCTDZ: 1
+STDIA: 5
+JMPE: 1
+DTE: 4
+ETD: 8
+
+@__strerror_l
+Migration Count: 0
+Remote Count: 0
+
+@main.outline_.otd1.1
+Migration Count: 0
+Remote Count: 0
+ADDM: 1023
+ADDE: 2046
+AAIMB: 1023
+SLLC: 2046
+JMPE: 1023
+DPETA: 2046
+LDE: 1023
+ATE: 1023
+ETD: 3069
+ETA: 1023
+
+@strnlen
+Migration Count: 0
+Remote Count: 0
+
+@pop_arg
+Migration Count: 0
+Remote Count: 0
+
+@printf_core
+Migration Count: 0
+Remote Count: 0
+DTA: 11
+SWAPD: 7
+DTD2: 4
+ADDE: 4
+SUBE: 6
+CMPE: 19
+LSR0: 23
+LSR1: 1
+LSR3: 2
+AAIM: 4
+AAIMB: 2
+LIT: 6
+JMP: 7
+ETE: 9
+LM: 1
+SM: 1
+SLLC: 3
+SRAC: 3
+MUMO1: 2
+TDF: 20
+TDT: 2
+ADDL: 28
+SILL: 25
+LIT16: 121
+JL: 6
+BCFDZ: 1
+BCTDZ: 6
+BCTGT: 4
+BCFZ: 4
+LD: 15
+STD: 4
+WRD: 67
+JALE: 2
+JMPE: 2
+DPETA: 113
+CAS: 4
+STE: 2
+LDE: 39
+LD8A: 6
+LD32A: 1
+DTE: 22
+ATE: 11
+ETD: 67
+ETA: 20
+
+@wctomb
+Migration Count: 0
+Remote Count: 0
+
+@vfprintf
+Migration Count: 0
+Remote Count: 0
+DTA: 7
+SWAPD: 3
+DTD2: 2
+ANDE: 2
+ORE: 1
+CMPE: 2
+LSR0: 10
+LSR1: 1
+LSR3: 1
+AAIM: 4
+LIT: 4
+JMP: 1
+ETE: 10
+LM: 1
+SM: 1
+TDF: 3
+ADDL: 3
+SILL: 24
+LIT16: 30
+JL: 1
+BCFDZ: 2
+BCTDZ: 1
+BCTGT: 2
+BCTITA: 1
+BCFZ: 2
+LD: 7
+STD: 3
+ST32: 2
+WRD: 11
+JALE: 6
+JMPE: 1
+DPETA: 26
+CAS: 2
+STE: 1
+LDE: 12
+LD8A: 1
+LD32A: 2
+DTE: 10
+ATE: 6
+ETD: 13
+ETA: 13
+
+@mw_free
+Migration Count: 0
+Remote Count: 0
+
+@printf
+Migration Count: 0
+Remote Count: 0
+DTA: 6
+SWAPD: 4
+ADD: 1
+DTD2: 2
+LSR0: 1
+LSR3: 1
+AAIM: 3
+LIT: 1
+JMP: 1
+ETE: 3
+SILL: 14
+LIT16: 4
+BCTGT: 2
+BCFZ: 2
+LD: 2
+STD: 3
+WRD: 1
+JALE: 1
+JMPE: 1
+CAS: 2
+STE: 1
+LDE: 4
+DTE: 2
+ATE: 3
+ETD: 2
+ETA: 8
+
+**********************************************
+END INSTRUCTION COUNT FOR AID=1
+**********************************************
